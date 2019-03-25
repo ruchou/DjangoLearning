@@ -1,0 +1,9 @@
+#start the server
+python3 manage.py runserver
+
+#start the application
+python3 manage.py starapp X
+
+#database migration
+python3 manage.py makemigrations
+python3 manage.py migrate
